@@ -12,24 +12,30 @@ body {
     border-color: #dddddd;
 }
 
+.header-heading-container {
+    /*float: left;*/
+    width: 960px;
+    /*margin: auto;*/
+}
+
 .header-heading {
     font-family: 'Georgia', Times, Times New Roman, serif;
     background-color: #4aaaa5;
     color: #ffffff;
     padding: 30px;
-    text-align: left;
+    margin-top: auto;
 }
 
-.header-link {
+.header-right {
     text-align: right;
 }
 
-.header-text {
+/*.header-text {
     width: 960px;
     margin: auto;
-}
+}*/
 
-.header {
+header {
     width: 100%;
     background: #ffffff;
     padding: 30px;
@@ -38,10 +44,16 @@ body {
     border-bottom-color: #cccccc;
 }
 
-.header {
+header {
     white-space: nowrap;
 }
-   
-.header * {
+
+   /* The problem here is that for some reason, by displaying everything within the header div in line,
+   we've made it impossible to set the width of individual elements/discrete groups of elements within that div.*/
+header * {
     display: inline;
+}
+
+.footer {
+    
 }
