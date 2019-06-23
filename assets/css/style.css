@@ -1,6 +1,29 @@
 body {
     margin: 0;
+    padding: 0;
     background-image: url("../images/background.png");
+}
+
+#profile-picture {
+    padding: 0 30px 0 30px;
+    float: left;
+}
+
+p {
+    padding: 0 30px 0 30px;
+    font-size: 16px;
+    color: #777777;
+    line-height: 2;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.h1-below {
+    padding: 0 30px 0 30px;
+    color: #4aaaa5;
 }
 
 .container {
@@ -10,29 +33,46 @@ body {
     border-style: solid;
     border-width: 2px;
     border-color: #dddddd;
+    position: relative;
+    top: 135px;
 }
 
 .header-heading-container {
-    /*float: left;*/
+    float: left;
     /*margin: auto;*/
+    /*position: absolute;
+    top: 0;*/
 }
 
 .header-heading {
     font-family: 'Georgia', Times, Times New Roman, serif;
     background-color: #4aaaa5;
+    font-size: 32px;
+    height: 92px;
+    padding: 100% 30px 100% 30px;
     color: #ffffff;
-    padding: 30px;
+    /*padding: 30px;*/
+    /*height: 100%;*/
     margin-top: auto;
-    float: left;
+    /*float: left;*/
+
 }
 
-.inline-stuff {
+/*.inline-stuff {
     display: inline;
-}
+}*/
 
 .header-right {
     /*text-align: right;*/
     float: right;
+    vertical-align: auto;
+    font-size: 16px;
+    height: 54px;
+    padding-top: 36px;
+    /*padding: 38px 0 38px 0;*/
+    /*position: relative;
+    top: 50%
+    /*padding: 30px 0 30px 0;*/
 }
 
 .header-text {
@@ -41,13 +81,19 @@ body {
 }
 
 header {
-    position:absolute;
+    position: absolute;
+    top: 0;
+    bottom: auto;
     width: 100%;
     background: #ffffff;
     /*padding: 30px;*/
+    /*height: 96px;*/
+    overflow: auto;
+    /*height: auto;*/
     border-bottom-style: solid;
     border-bottom-width: 2px;
     border-bottom-color: #cccccc;
+    margin-bottom: 150px;
 }
 
 /*header {
@@ -61,14 +107,8 @@ header {
     padding: 0 auto 0 auto;
 }*/
 
-header {
+/*header {
     white-space: nowrap;
-}
-
-   /* The problem here is that for some reason, by displaying everything within the header div in line,
-   we've made it impossible to set the width of individual elements/discrete groups of elements within that div.*/
-/*header * {
-    display: inline;
 }*/
 
 .footer {
@@ -78,5 +118,6 @@ header {
 .clearfix::after {
     content: "";
     display: block;
+    height: 0;
     clear: both;
 }
