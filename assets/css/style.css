@@ -30,18 +30,13 @@ h1 {
     width: 960px;
     margin: auto;
     background-color: #ffffff;
-    border-style: solid;
-    border-width: 2px;
-    border-color: #dddddd;
+    border: 2px solid #dddddd;
     position: relative;
-    top: 135px;
+    top: 130px;
 }
 
 .header-heading-container {
     float: left;
-    /*margin: auto;*/
-    /*position: absolute;
-    top: 0;*/
 }
 
 .header-heading {
@@ -51,28 +46,15 @@ h1 {
     height: 92px;
     padding: 100% 30px 100% 30px;
     color: #ffffff;
-    /*padding: 30px;*/
-    /*height: 100%;*/
     margin-top: auto;
-    /*float: left;*/
-
 }
 
-/*.inline-stuff {
-    display: inline;
-}*/
-
 .header-right {
-    /*text-align: right;*/
     float: right;
     vertical-align: auto;
     font-size: 16px;
     height: 54px;
     padding-top: 36px;
-    /*padding: 38px 0 38px 0;*/
-    /*position: relative;
-    top: 50%
-    /*padding: 30px 0 30px 0;*/
 }
 
 .header-text {
@@ -86,33 +68,23 @@ header {
     bottom: auto;
     width: 100%;
     background: #ffffff;
-    /*padding: 30px;*/
-    /*height: 96px;*/
     overflow: auto;
-    /*height: auto;*/
-    border-bottom-style: solid;
-    border-bottom-width: 2px;
-    border-bottom-color: #cccccc;
+    border-bottom: 2px solid #cccccc;
     margin-bottom: 150px;
 }
 
-/*header {
+footer {
+    background: #666666;
     position: absolute;
-    width: 960px;
-    margin: auto;
-    background: #ffffff;
-    border-bottom-style: solid;
-    border-bottom-width: 2px;
-    border-bottom-color: #cccccc;
-    padding: 0 auto 0 auto;
-}*/
+    bottom: 0;
+    height: 65px;
+    width: 100%;
+    border-top: 7px solid #4aaaa5;
+}
 
-/*header {
-    white-space: nowrap;
-}*/
-
-.footer {
-    
+.copyright {
+    text-align: center;
+    font-size: 8px;
 }
 
 .clearfix::after {
