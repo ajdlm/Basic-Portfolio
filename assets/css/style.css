@@ -46,7 +46,6 @@ p {
 .header-heading {
     font-family: 'Georgia', Times, Times New Roman, serif;
     background-color: #4aaaa5;
-
     height: 92px;
     padding: 100% 30px 35px 30px;
     color: #ffffff;
@@ -70,14 +69,14 @@ header {
     bottom: auto;
     width: 100%;
     background: #ffffff;
-    overflow: auto;
+    overflow: hidden;
     border-bottom: 2px solid #cccccc;
     margin-bottom: 150px;
 }
 
 footer {
     background: #666666;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     height: 65px;
     width: 100%;
