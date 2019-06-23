@@ -14,7 +14,6 @@ body {
 
 .header-heading-container {
     /*float: left;*/
-    width: 960px;
     /*margin: auto;*/
 }
 
@@ -24,25 +23,43 @@ body {
     color: #ffffff;
     padding: 30px;
     margin-top: auto;
+    float: left;
+}
+
+.inline-stuff {
+    display: inline;
 }
 
 .header-right {
-    text-align: right;
+    /*text-align: right;*/
+    float: right;
 }
 
-/*.header-text {
+.header-text {
     width: 960px;
     margin: auto;
-}*/
+}
 
 header {
+    position:absolute;
     width: 100%;
     background: #ffffff;
-    padding: 30px;
+    /*padding: 30px;*/
     border-bottom-style: solid;
     border-bottom-width: 2px;
     border-bottom-color: #cccccc;
 }
+
+/*header {
+    position: absolute;
+    width: 960px;
+    margin: auto;
+    background: #ffffff;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #cccccc;
+    padding: 0 auto 0 auto;
+}*/
 
 header {
     white-space: nowrap;
@@ -50,10 +67,16 @@ header {
 
    /* The problem here is that for some reason, by displaying everything within the header div in line,
    we've made it impossible to set the width of individual elements/discrete groups of elements within that div.*/
-header * {
+/*header * {
     display: inline;
-}
+}*/
 
 .footer {
     
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
 }
