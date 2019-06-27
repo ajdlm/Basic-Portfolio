@@ -16,7 +16,7 @@ body {
 
 /*Defined font family and size for h1*/
 h1 {
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
     font-size: 32px;
 }
 
@@ -88,7 +88,7 @@ header {
 }
 
 .header-heading {
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
     background-color: #4aaaa5;
     height: 92px;
     padding: 100% 30px 35px 30px;
@@ -167,13 +167,15 @@ footer {
 .project-title {
     text-align: center;
     margin-left: 30px;
-    padding: 20px 0;
+    padding: 18px 0;
     width: 300px;
+    font-weight: normal;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
     text-align: center;
     color: #ffffff;
     background-color: #4aaaa5;
     position: absolute;
-    bottom: 15px;
+    bottom: 12px;
     z-index: 1;
 }
 
