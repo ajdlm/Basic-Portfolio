@@ -7,6 +7,7 @@
 /*Defined height of body and html as 100% so that .not-footer can have a height of 100%, too*/
 html, body {
     height: 100%;
+    /*font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;*/
 }
 
 /*Linked a background image for the body*/
@@ -105,6 +106,7 @@ header {
 .header-link {
     display: inline-block;
 }
+
 /*Centered the container while keeping its position absolute by giving
 it a left value of 50% and a left margin equal to negative half its width*/
 .container {
@@ -125,13 +127,14 @@ it a left value of 50% and a left margin equal to negative half its width*/
 }
 
 #profile-picture {
-    padding: 0 30px 0 30px;
+    padding: 9px 30px 0 30px;
     float: left;
 }
 
 .push {
     height: 160px;
 }
+
 footer {
     background: #666666;
     clear: both;
@@ -146,19 +149,32 @@ footer {
     margin-top: 38px;
 }
 
-.clearfix::after {
-    content: "";
-    display: block;
-    height: 0;
-    clear: both;
-}
-
 .row {
     padding: 12px 0 38px 0;
 }
 
 .portfolio-project {
     padding: 0 30px;
+    position: relative;
+}
+
+#project-3-container{
+    width: 200px;
+    position: relative;
+    /*display: inline-block;*/
+}
+
+#p-project-3 {
+    text-align: center;
+    margin-left: 30px;
+    padding: 20px 0;
+    width: 300px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    position: absolute;
+    bottom: 15px;
+    z-index: 1;
 }
 
 #contact-form-container {
@@ -194,4 +210,11 @@ input, textarea {
     color: #ffffff;
     font-size: 20px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
 }
