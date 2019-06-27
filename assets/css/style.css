@@ -158,13 +158,14 @@ footer {
     position: relative;
 }
 
-#project-3-container{
+.project-container{
     width: 200px;
     position: relative;
-    /*display: inline-block;*/
+    display: inline-block;
+    margin-right: 150px;
 }
 
-#p-project-3 {
+.project-title {
     text-align: center;
     margin-left: 30px;
     padding: 20px 0;
