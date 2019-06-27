@@ -7,7 +7,6 @@
 /*Defined height of body and html as 100% so that .not-footer can have a height of 100%, too*/
 html, body {
     height: 100%;
-    /*font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;*/
 }
 
 /*Linked a background image for the body*/
