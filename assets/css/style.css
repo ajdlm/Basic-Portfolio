@@ -7,6 +7,7 @@
 /*Defined height of body and html as 100% so that .not-footer can have a height of 100%, too*/
 html, body {
     height: 100%;
+    min-width: 1024px;
 }
 
 /*Linked a background image for the body*/
@@ -68,12 +69,12 @@ that said content doesn't run into the footer*/
 
 /*Have checked all code and made sure it serves a purpose up to this point*/
 header {
-    bottom: auto;
     width: 100%;
     background: #ffffff;
     overflow: hidden;
     border-bottom: 2px solid #cccccc;
     margin-bottom: 40px;
+    height: 90px;
 }
 
 .header-text {
@@ -98,8 +99,10 @@ header {
 .header-right {
     list-style: none;
     float: right;
-    height: 54px;
+    height: 100%;
     padding-top: 36px;
+    background: #ffffff;
+    /*height: 54px;*/
 }
 
 .header-link {
