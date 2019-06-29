@@ -16,7 +16,7 @@ body {
 
 /*Defined font family and size for h1*/
 h1 {
-    font-family: 'Georgia', Times, "Times New Roman", serif;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
     font-size: 32px;
 }
 
@@ -134,18 +134,27 @@ it a left value of 50% and a left margin equal to negative half its width*/
     height: 160px;
 }
 
+/*.footer-container {
+    background: #666666;
+    height: 65px;
+    overflow: hidden;
+}*/
+
 footer {
     background: #666666;
     clear: both;
     border-top: 7px solid #4aaaa5;
-    height: 65px;
+    height: 65px; /*65 div with this bigger overflow: hidden*/
 }
 
 .copyright {
     text-align: center;
+    position: relative;
+    bottom: -38px;
     font-size: 12px;
     color: #dddddd;
-    margin-top: 38px;
+    /*margin-top: 38px;*/
+    background: #666666;
 }
 
 .row {
